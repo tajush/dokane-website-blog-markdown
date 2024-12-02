@@ -1,0 +1,36 @@
+{
+  "name": "dokane-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@headlessui/react": "^1.7.5",
+    "@heroicons/react": "^1.0.6",
+    "gray-matter": "^4.0.3",
+    "i18next": "^22.4.4",
+    "material-symbols": "^0.26.0",
+    "next": "13.0.6",
+    "ni18n": "^1.0.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^12.1.1",
+    "react-select": "^5.7.0",
+    "react-simple-typewriter": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  }
+}

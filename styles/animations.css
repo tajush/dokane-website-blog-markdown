@@ -1,0 +1,39 @@
+@keyframes moveLeftright {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-30px);
+  }
+}
+
+@keyframes moveUpdown {
+  0% { 
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.moveRightToLeft{
+    animation: moveLeftright 2.5s linear alternate infinite;
+}
+
+.moveTopToBottom{
+    animation: moveUpdown 2.5s linear alternate infinite;
+}
+
+.rotate{
+  animation: rotation 10s infinite linear;
+}
+
